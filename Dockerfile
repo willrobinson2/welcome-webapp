@@ -9,6 +9,6 @@ RUN pip install -r /app/requirements.txt
 
 RUN make /app
 
-# EXPOSE 5000
+# EXPOSE 8888
 
 CMD python3 /app/app.py
